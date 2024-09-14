@@ -21,5 +21,3 @@ class Solution:
             else:  
                 total += cv
         return total
-    
-romanToInt("III")
