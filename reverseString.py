@@ -1,4 +1,4 @@
-# Visit https://leetcode.com/problems/reverse-string/description/ for problem description.
+# Visit https://leetcode.com/problems/reverse-string/description/ for problem description. 
 class Solution:
     def reverseString(self, s: List[str]) -> None:
         left = 0
@@ -6,6 +6,6 @@ class Solution:
         while left < right:
             t= s[left]
             s[left] = s[right]
-            s[right] = temp
+            s[right] = t
             left += 1
             right -= 1
